@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 480px;
+    height: 100vh;
+}
+.container img{
+    width: 100%;
+}
