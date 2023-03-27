@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 850px;
+    background-color: pink;
+    height: 1000px;
+    background-image: url('backgroud.jpg');
+    background-size: 100% 100%;
+}
+header{
+    position: relative;
+    width: 850px;
+    height: 60px;
+}
+header marquee{
+    background-color: antiquewhite;
+}
+header h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: yellow;
+}
+nav{
+    margin-top: 10px;
+    position: relative;
+    width: 850px;
+    height: 55px;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    background-color: beige;
+}
+nav ul li{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    padding-left: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.btn{
+    position: absolute;
+    right: 40px;
+    margin-top: 0;
+}
+header button{
+    padding: 5px 17px;
+    margin-right: 5px;
+    font-size: 18px;
+    border: 3px solid yellow;
+    background-color: blue;
+    border-radius: 5px;
+}
+header button:hover{
+    background-color: green;
+    color: #fff;
+}
+.danhmuc{
+    margin-top: 10px;
+    color: green;
+    position: absolute;
+    width: 850px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #fff,
+    0 2px black;
+    padding-top: 10px;
+}
+article{
+    margin-top: 70px;
+    width: 850px;
+    height: 750px;
+    position: relative;
+    position: absolute;
+}
+article form{
+    background-color: antiquewhite;
+    position: absolute;
+    z-index: 9999;
+    width: 400px;
+    height: 400px;
+    left: 250px;
+    border: 15px solid red;
+    border-radius: 10px;
+}
+.Formh2{
+    
+    margin-left: 70px;
+    width: 270px;
+    text-align: center;
+    font-size: 35px;
+    color: orange;
+    text-shadow: 2px 1px 1px #fff;
+    background-color: pink;
+}
+.tkmk{
+    position: absolute;
+    left: 10px;
+    text-align: center;
+}
+.tk{
+    font-size: 30px;
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    border: 3px solid blue;
+}
+.tk:hover{
+    border: 5px solid black;
+}
+.mk{
+    font-size: 30px;
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 3px solid blue;
+
+}
+.mk:hover{
+    border: 5px solid black;
+}
+.log{
+    margin-top: 5px;
+    font-size: 25px;
+    padding: 5px 30px;
+}
+.log:hover{
+    background-color: green;
+    color: #fff;
+}
+.forget{
+    position: absolute;
+    color: black;
+    text-shadow: 1px 1px 0px pink;
+    font-size: 20px;
+    bottom: -20px;
+    left: 70px;
+}
+.forget{
+    text-decoration: none;
+}
+.forget a:hover{
+    color: orange;
+}
+.exit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    padding: 1px 5px;
+    border: 2px solid black;
+}
+.exit:hover{
+    color: #fff;
+    background-color: blue;
+}
+.items{
+    height: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid red;
+}
+.product{
+    position: relative;
+       border: 2px solid blue;
+       background-color: aliceblue;
+}
+.product:hover{
+    border: 5px solid orange;
+}
+.img1{
+    width: 100%;
+    height: 150px;
+}
+.sever{
+    text-align: center;
+    background-color: red;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.dell{
+    margin-left: 80px;
+}
+.money{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    padding-bottom: 50px;
+}
+.buy{
+    position: absolute;
+    bottom: 10px;
+    left: 75px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 2px solid blue;
+    background-color: aquamarine;
+}
+.buy:hover{
+    background-color: green;
+    border: 4px solid orange;
+    color: #fff;
+}
+footer{
+    position: relative;
+    position: absolute;
+    border: 2px solid blue;
+    padding-bottom: 0;
+    bottom: 0px;
+}
+.forgetpass:hover{
+    color: blue;
+}
+.dangki:hover{
+    color: orange;
+}
+@media screen and (max-width:768px) {
+    article{
+        flex-direction: column;
+        text-align: center;
+        background-color: red;
+    }
+}
